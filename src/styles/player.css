@@ -1,0 +1,136 @@
+.player{
+    box-shadow: 1px 1px 3px;
+    margin: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr;
+    position: relative;
+ 
+}
+
+.dreamTeam{
+    font-size: 25px;
+     font-weight: bold;
+     color: rgb(24, 56, 8);
+     display: grid;
+     justify-content: center;
+     align-content: center;
+     margin-top: 20px;
+ }
+
+.playerName {
+    font-size: 20px;
+    font-weight: bold;
+    color: palevioletred;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.playername {
+    font-size: 20px;
+    font-weight: bold;
+    color: palevioletred;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+
+}
+
+.jersey{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+
+.player:hover {
+    background-color: rgb(113, 151, 155);
+}
+
+.pos{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    color: red;
+
+}
+
+.goals{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    color: rgb(7, 7, 7);
+
+}
+
+
+.playerImg {
+    width: 200px;
+    height: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    cursor: pointer;
+    margin-top: 10px;
+    object-fit: cover;
+
+    
+}
+
+.teamlogo{
+    cursor: pointer;
+    float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.leagueImg {
+    cursor: pointer;
+    float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.delete-player{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+}
+
+#btn{
+    cursor: pointer;
+    color: #ecf0f1;
+    background-color: #e74c3c;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 1em;
+    margin-top: 10px;
+    width: 170px;
+
+}
+
+.playerStats {
+    margin-top: 40px;
+    color: #e74c3c;
+    background-color: rgb(224, 188, 140);
+    width: 40%;
+    line-height: 1.5;
+    box-shadow: 1px 1px 3px;
+}
