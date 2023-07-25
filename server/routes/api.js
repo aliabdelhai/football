@@ -94,10 +94,10 @@ router.put('/team/:name/:newTeam', async (req, res) => {
     let firstName; 
     let lastName;
     if(name.indexOf(' ') >= 0) {
-        firstName = name.substring(0, name.indexOf(" ")),
+        firstName = name.substring(0, name.indexOf(" "));
         lastName = name.substring(name.indexOf(" ") + 1)
     } else {
-        firstName = name,
+        firstName = name;
         lastName = ""
     }
     try {
@@ -114,10 +114,10 @@ router.put('/jersey/:name/:newJersey', async (req, res) => {
     let firstName; 
     let lastName;
     if(name.indexOf(' ') >= 0) {
-        firstName = name.substring(0, name.indexOf(" ")),
+        firstName = name.substring(0, name.indexOf(" "));
         lastName = name.substring(name.indexOf(" ") + 1)
     } else {
-        firstName = name,
+        firstName = name;
         lastName = ""
     }
     try {
@@ -134,10 +134,10 @@ router.put('/image/:name/:newImg', async (req, res) => {
     let firstName; 
     let lastName;
     if(name.indexOf(' ') >= 0) {
-        firstName = name.substring(0, name.indexOf(" ")),
+        firstName = name.substring(0, name.indexOf(" "));
         lastName = name.substring(name.indexOf(" ") + 1)
     } else {
-        firstName = name,
+        firstName = name;
         lastName = ""
     }
     try {
@@ -154,10 +154,10 @@ router.put('/position/:name/:newPos', async (req, res) => {
     let firstName; 
     let lastName;
     if(name.indexOf(' ') >= 0) {
-        firstName = name.substring(0, name.indexOf(" ")),
-        lastName = name.substring(name.indexOf(" ") + 1)
+        firstName = name.substring(0, name.indexOf(" "));
+        lastName = name.substring(name.indexOf(" ") + 1);
     } else {
-        firstName = name,
+        firstName = name;
         lastName = ""
     }
     try {
@@ -174,10 +174,10 @@ router.put('/appearances/:name/:appearances', async (req, res) => {
     let firstName; 
     let lastName;
     if(name.indexOf(' ') >= 0) {
-        firstName = name.substring(0, name.indexOf(" ")),
+        firstName = name.substring(0, name.indexOf(" "));
         lastName = name.substring(name.indexOf(" ") + 1)
     } else {
-        firstName = name,
+        firstName = name;
         lastName = ""
     }
     try {
@@ -194,10 +194,10 @@ router.put('/goals/:name/:goals', async (req, res) => {
     let firstName; 
     let lastName;
     if(name.indexOf(' ') >= 0) {
-        firstName = name.substring(0, name.indexOf(" ")),
+        firstName = name.substring(0, name.indexOf(" "));
         lastName = name.substring(name.indexOf(" ") + 1)
     } else {
-        firstName = name,
+        firstName = name;
         lastName = ""
     }
     try {
@@ -215,10 +215,10 @@ router.put('/assists/:name/:assists', async (req, res) => {
     let firstName; 
     let lastName;
     if(name.indexOf(' ') >= 0) {
-        firstName = name.substring(0, name.indexOf(" ")),
+        firstName = name.substring(0, name.indexOf(" "));
         lastName = name.substring(name.indexOf(" ") + 1)
     } else {
-        firstName = name,
+        firstName = name;
         lastName = ""
     }
     try {
@@ -235,10 +235,10 @@ router.put('/minutesPlayed/:name/:minutesPlayed', async (req, res) => {
     let firstName; 
     let lastName;
     if(name.indexOf(' ') >= 0) {
-        firstName = name.substring(0, name.indexOf(" ")),
+        firstName = name.substring(0, name.indexOf(" "));
         lastName = name.substring(name.indexOf(" ") + 1)
     } else {
-        firstName = name,
+        firstName = name;
         lastName = ""
     }
     try {
