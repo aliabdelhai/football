@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react';
 import { Grid } from "@material-ui/core";
-
+import React  from 'react';
 import DreamTeamPlayers from "./DreamTeamPlayers";
 
 function DreamTeam(props) {

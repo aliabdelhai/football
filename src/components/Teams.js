@@ -3,7 +3,7 @@ import Team from "./Team";
 import { Grid } from "@material-ui/core";
 import axios from 'axios'
 import { useEffect, useState } from 'react';
-
+import React  from 'react';
 function Teams(props) {
 
     const league = props.league

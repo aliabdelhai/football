@@ -1,9 +1,5 @@
-import { BrowserRouter as Link } from "react-router-dom";
-import { Component, useState } from 'react';
-import Button from '@material-ui/core/Button';
-import axios from 'axios'
 import '../styles/player.css'
-
+import React  from 'react';
 
 function DreamTeamPlayers(props) {
 
@@ -11,7 +7,7 @@ function DreamTeamPlayers(props) {
     <div >
             <div className='player'>
                 <div className='playerName'>{props.player.firstName} {props.player.lastName}</div>
-                <img src={props.player.img} className='playerImg' />
+                <img alt="" src={props.player.img} className='playerImg' />
                 <div className='pos'>{props.player.pos}</div>
             </div>            
     </div>

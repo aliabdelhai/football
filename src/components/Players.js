@@ -1,6 +1,6 @@
-import { Component, useState } from 'react';
+import { useState } from 'react';
 import '../styles/player.css'
-
+import React  from 'react';
 function Players(props) {
 
   const [isHovering, setIsHovering] = useState(false);
@@ -17,7 +17,7 @@ function Players(props) {
     <div >
             <div className='player' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
                 <div className='playerName'>{props.player.firstName} {props.player.lastName}</div>
-                <img src={props.player.img} className='playerImg' />
+                <img alt="" src={props.player.img} className='playerImg' />
                 <div className='jersey'>{props.player.jersey}</div>
                 <div className='pos'>{props.player.pos}</div>
                 <div>

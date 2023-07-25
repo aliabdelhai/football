@@ -3,9 +3,9 @@ import AddPlayer from "./AddPlayer";
 import DeletePlayer from "./DeletePlayer";
 import UpdatePlayer from "./UpdatePlayer";
 import AddTeam from "./AddTeam";
-
+import React  from 'react';
 import axios from 'axios'
-import { Component, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 

@@ -1,10 +1,5 @@
-import { BrowserRouter as Link } from "react-router-dom";
-import { Component, useState } from 'react';
-import Button from '@material-ui/core/Button';
-
-import TextField from '@material-ui/core/TextField';
-import { makeStyles } from '@material-ui/core/styles';
 import '../styles/player.css'
+import React  from 'react';
 
 function LigaImages(props) {
 
@@ -13,7 +8,7 @@ function LigaImages(props) {
             <div className='player'>
             <a href={`${props.image.title}/teams`}>
                 <img 
-                    src={props.image.img} className='leagueImg'/> </a>
+                    src={props.image.img} className='leagueImg' alt=""/> </a>
             </div>            
     </div>
   );

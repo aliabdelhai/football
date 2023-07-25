@@ -40,7 +40,7 @@ function UpdatePlayer(props) {
     }
 
     const getJersey = () => {
-        const jersey = props.players.filter(p => p.team == input.team).map(p => p.jersey);
+        const jersey = props.players.filter(p => p.team === input.team).map(p => p.jersey);
         let newJersey = []
         for(let i=1; i<30; i++){
             if(!jersey.includes(i)){

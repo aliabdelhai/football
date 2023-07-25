@@ -1,9 +1,8 @@
-import { BrowserRouter as Link } from "react-router-dom";
-import { Component, useEffect, useState } from 'react';
+import {  useState } from 'react';
 import Button from '@material-ui/core/Button';
 import Players from './Players';
 import LigaImages from './LigaImages';
-
+import React  from 'react';
 import axios from 'axios'
 
 import TextField from '@material-ui/core/TextField';

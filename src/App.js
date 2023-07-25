@@ -1,12 +1,9 @@
 
 import './App.css';
 import './styles/navbar.css';
-
+import React  from 'react';
 import { Route, Routes, BrowserRouter, useParams } from "react-router-dom";
 import Navbar from './components/Navbar'
-import { Component, useEffect, useState } from 'react';
-import axios from 'axios'
-
 import Home from './components/Home'
 import DreamTeam from './components/DreamTeam';
 import Actions from './components/Actions';
